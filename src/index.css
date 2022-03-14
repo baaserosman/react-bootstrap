@@ -12,10 +12,8 @@ code {
     monospace;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
+.row {
+  margin-bottom: 8rem;
 }
 
 .card {
@@ -25,6 +23,7 @@ code {
   margin-top: 3rem;
   box-shadow: 2px 3px 10px 5px rgb(29, 98, 116);
 }
+
 /* .img {
   margin-top: 0.5rem;
 } */
@@ -42,6 +41,7 @@ code {
 
 .footer p {
   font-weight: bold;
+  color: rgb(76, 214, 248);
 }
 .footer img {
   width: 30px;
